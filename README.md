@@ -1,4 +1,4 @@
-# BDD + Capybara + PageObjects
+## BDD + Capybara + PageObjects
 Automação do site do Quinto Andar
 
 ### Instalando Ambiente no Mac
