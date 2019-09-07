@@ -3,7 +3,7 @@ Dado("que estou no site do Quinto Andar") do
   home.estou_home_page?
 end
 
-Quando("realizar uma busca pela região da Paulista") do
+Quando("realizar uma busca em São Paulo") do
   home.buscar_localizacao
 end
 

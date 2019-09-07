@@ -8,6 +8,6 @@ Funcionalidade: Buscar Imóvel
 
   Cenário: Realizar busca de apartamento com filtros
     Dado que estou no site do Quinto Andar
-    Quando realizar uma busca pela região da Paulista
+    Quando realizar uma busca em São Paulo
     E adicionar filtros especificos
     Então devo ver o resultado da busca com os filtros aplicados corretamente

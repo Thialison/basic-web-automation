@@ -3,15 +3,14 @@ class Home < SitePrism::Page
     set_url 'https://www.quintoandar.com.br/'
 
     element :input_localizacao, "input[name='LocationName']"
-    element :btn_buscar, "#searchbutton"
+    element :input_cidade, 'form > div > div:first-child >* input'
+    element :btn_buscar, 'form > div >* button'
 
     def estou_home_page?
-        has_input_localizacao?
-        has_btn_buscar?
     end
 
-    def buscar_localizacao(regiao = "Paulista")
-        input_localizacao.set regiao
+    def buscar_localizacao(cidade = "São Paulo")
+        input_cidade.set cidade
         btn_buscar.click
     end
 
