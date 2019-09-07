@@ -2,3 +2,5 @@
 Gemfile.lock
 .byebug_history
 docker-file-last.yml
+*.html
+relatorio.json
