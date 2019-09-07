@@ -1,2 +1,4 @@
 *.png
 Gemfile.lock
+.byebug_history
+docker-file-last.yml
