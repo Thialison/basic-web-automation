@@ -37,3 +37,14 @@ gem install bundler
    cucumber
 
 ```
+
+### Executando com o Docker :dart:
+
+```ruby
+1. Crie a imagem do projeto:
+   docker pull thialison/basic-web
+
+2. Execute o projeto com o docker:
+   docker container run -it --rm -v "$(pwd)/output":/app/report/ basic-web cucumber -p report
+
+```
