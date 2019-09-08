@@ -38,7 +38,7 @@ gem install bundler
 
 ```
 
-### Executando com o Docker :dart:
+### Baixando a imagem do Docker Hub :dart:
 
 ```ruby
 1. Crie a imagem do projeto:
