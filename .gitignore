@@ -4,3 +4,4 @@ Gemfile.lock
 docker-file-last.yml
 *.html
 relatorio.json
+.DS_Store
