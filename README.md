@@ -16,6 +16,9 @@ Automação do site do Quinto Andar
    
 3. Baixar ChromeDriver
    http://chromedriver.chromium.org/
+
+4. Baixar docker:
+   https://docs.docker.com/docker-for-mac/install/
 ```
 
 ### Instalando Gerenciador de gems do Ruby
@@ -30,11 +33,8 @@ gem install bundler
 1. Faça um clone do projeto:
    git clone https://github.com/Thialison/basic-web-automation.git
 
-2. Acesse a pasta pelo terminal e execute o comando:
-   bundle
-
-3. Executando cenário de busca de apartamento:
-   cucumber
+2. Executando com Docker Compose:
+   docker-compose up ou docker-compose run --rm basic_web cucumber <comandos personalizados>
 
 ```
 
