@@ -22,7 +22,7 @@ class BuscarImoveis < SitePrism::Page
     end
 
     def aplicar_filtro
-        click_button('Aplicar')
+        click_button('APLICAR')
     end
 
     def filtros_adicionados?
