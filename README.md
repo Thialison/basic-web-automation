@@ -33,18 +33,6 @@ gem install bundler
 1. Faça um clone do projeto:
    git clone https://github.com/Thialison/basic-web-automation.git
 
-2. Executando com Docker Compose:
-   docker-compose up ou docker-compose run --rm basic_web cucumber <comandos personalizados>
-
-```
-
-### Baixando a imagem do Docker Hub :dart:
-
-```ruby
-1. Crie a imagem do projeto:
-   docker pull thialison/basic-web
-
-2. Execute o projeto com o docker:
-   docker container run -it --rm -v "$(pwd)/output":/app/report/ basic-web cucumber -p report
-
+2. Executando as features:
+   cucumber
 ```
