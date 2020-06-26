@@ -1,9 +1,12 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-gem 'rspec'
-gem 'cucumber'
-gem 'selenium-webdriver'
 gem 'capybara'
-gem 'pry-byebug'
-gem 'site_prism'
+gem 'cucumber'
 gem 'faker'
+gem 'pry-byebug'
+gem 'rspec'
+gem 'rubocop'
+gem 'selenium-webdriver'
+gem 'site_prism'

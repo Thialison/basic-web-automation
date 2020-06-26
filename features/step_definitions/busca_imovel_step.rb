@@ -1,10 +1,10 @@
 Dado("que estou no site do Quinto Andar") do
-  home.load
+  visit 'https://www.quintoandar.com.br/'
   home.estou_home_page?
 end
 
 Quando("realizar uma busca em São Paulo") do
-  home.buscar_localizacao
+  home.buscar_cidade
 end
 
 Quando("adicionar filtros especificos") do

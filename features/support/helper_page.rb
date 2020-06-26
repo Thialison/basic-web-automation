@@ -1,11 +1,13 @@
-Dir["../pages/*.rb"].each {|file| require file }
+# frozen_string_literal: true
+
+Dir['../pages/*.rb'].each { |file| require file }
 
 module Pages
-    def home
-        @home ||= Home.new
-    end
-    
-    def buscar
-        @buscar ||= BuscarImoveis.new
-    end
+  def home
+    @home ||= Home.new
+  end
+
+  def buscar
+    @buscar ||= BuscarImoveis.new
+  end
 end
